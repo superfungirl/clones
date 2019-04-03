@@ -1,0 +1,128 @@
+
+
+body{
+    letter-spacing: .1px;
+    color: #484f5f;
+    margin: 0 auto;
+}
+
+.navbar-pull{
+    margin-left: 100px;
+  
+}
+
+
+/*Take borders off the navbar*/
+.navbar.navbar-default, .navbar-collapse {
+border: 0;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+.test-network a{
+    color: #1e7e34!important;
+}
+
+.sign-in a{
+    color: #3163e1 !important;
+}
+
+.arrow-right i{
+    margin-top: 18px;
+    font: 20px;
+    color: #3163e1;
+}
+
+h1{
+    font-size: 48px;
+    color: #48485f !important;
+    font-weight: bolder;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #48485f;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 18px;
+    font-weight: lighter;
+    color: #82858c;
+    word-spacing: 2px;
+    line-height: 30px; 
+    margin-bottom: 100px;
+}
+
+.lists li{
+    font-size: 15px;
+    color: #484f5f;
+    line-height: 200%;
+    margin-bottom: 10px;
+}
+
+.lists ul{
+    padding: 0 0 0 40px;
+    margin-bottom: 50px;
+
+}
+
+.row-bordered:after {
+    content: "";
+    display: block;
+    border-bottom: 1px dotted #82858c;
+    margin: 0 15px;
+
+}
+.list-style-type ul li{
+    list-style-type: none;
+}
+
+.bold, .bold li a{
+    font-weight: bold;
+    color: #484f5f;
+}
+
+.footer{
+    width: auto;
+    height: auto;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.footer li{
+    padding: 5px;
+
+}
+
+.footer li a{
+    color: #48485f;
+
+}
+
+.enter-email{
+    margin-left: 28px;
+}
+
+.span-icons, .span-icons i{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.form-group .subscribe-input{
+    border-radius: none;
+}
+
+.subscribe-button{
+    margin-left: -12px;
+    border-radius: 0;
+}
+
+.span-icons i:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+
