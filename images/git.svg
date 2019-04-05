@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="388" height="539" viewBox="0 0 388 539">
+    <defs>
+        <rect id="a" width="270" height="421" rx="8"/>
+        <filter id="b" width="181.5%" height="152.3%" x="-40.7%" y="-16.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="40" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="30"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0666666667 0 0 0 0 0.129411765 0 0 0 0 0.294117647 0 0 0 0.190811821 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="matrix(-1 0 0 1 329 19)">
+        <mask id="c" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <g fill-rule="nonzero">
+            <use fill="#000" filter="url(#b)" xlink:href="#a"/>
+            <use fill="#071D46" xlink:href="#a"/>
+        </g>
+        <g mask="url(#c)">
+            <g transform="matrix(-1 0 0 1 292.448 -93.487)">
+                <path stroke="#18C2AA" stroke-width="7.262" d="M375.8 26.003L130.95 269.39l-25.576 25.41"/>
+                <path stroke="#3163E1" stroke-width="7.262" d="M360.394.297L.299 358.172"/>
+                <path stroke="#1AB5EA" stroke-width="7.262" d="M355.234 5.572L237.296 122.585c-1.496 1.486-2.243 3.418-2.243 5.498v75.483c0 2.08-.823 4.012-2.244 5.498l-63.942 63.521"/>
+                <path stroke="#8B57F3" stroke-width="7.262" d="M324.721 117.682l-61.025 60.772a11.828 11.828 0 0 0 0 16.865l57.959 57.578"/>
+                <path stroke="#FF5A5A" stroke-width="7.262" d="M457.391 26.597l-209.25 208.098"/>
+                <path stroke="#F2AD22" stroke-width="7.262" d="M437.573 87.37L77.478 445.245"/>
+                <path stroke="#F2BF22" stroke-width="7.262" d="M303.557 138.781l10.02-9.955c7.629-7.578 18.249-11.441 28.943-10.475l41.656 3.789a36.558 36.558 0 0 0 29.017-10.476l20.716-20.728"/>
+                <ellipse cx="245.672" cy="237.147" fill="#151515" fill-rule="nonzero" opacity=".824" rx="3.291" ry="3.269"/>
+                <path stroke="#FF5A5A" stroke-dasharray="50.4212158203125,60.02121582031251" stroke-width="7.633" d="M245.672 243.239c3.387 0 6.133-2.728 6.133-6.092 0-3.365-2.746-6.092-6.133-6.092s-6.132 2.727-6.132 6.092c0 3.364 2.745 6.092 6.132 6.092z"/>
+                <ellipse cx="302.21" cy="140.193" fill="#F0BF20" fill-rule="nonzero" opacity=".824" rx="3.291" ry="3.269"/>
+                <path stroke="#FACA35" stroke-dasharray="50.4212158203125,60.02121582031251" stroke-width="7.633" d="M302.21 146.285c3.387 0 6.133-2.727 6.133-6.092 0-3.365-2.746-6.092-6.133-6.092-3.386 0-6.132 2.727-6.132 6.092 0 3.365 2.746 6.092 6.132 6.092z"/>
+            </g>
+        </g>
+        <g mask="url(#c)" opacity=".144">
+            <g transform="rotate(180 200.804 291.592)">
+                <path stroke="#18C2AA" stroke-width="7.262" d="M375.8 26.003L130.95 269.39l-25.576 25.41"/>
+                <path stroke="#3163E1" stroke-width="7.262" d="M360.394.297L.299 358.172"/>
+                <path stroke="#1AB5EA" stroke-width="7.262" d="M355.234 5.572L237.296 122.585c-1.496 1.486-2.243 3.418-2.243 5.498v75.483c0 2.08-.823 4.012-2.244 5.498l-63.942 63.521"/>
+                <path stroke="#8B57F3" stroke-width="7.262" d="M324.721 117.682l-61.025 60.772a11.828 11.828 0 0 0 0 16.865l57.959 57.578"/>
+                <path stroke="#FF5A5A" stroke-width="7.262" d="M457.391 26.597l-209.25 208.098"/>
+                <path stroke="#F2AD22" stroke-width="7.262" d="M437.573 87.37L77.478 445.245"/>
+                <path stroke="#F2BF22" stroke-width="7.262" d="M303.557 138.781l10.02-9.955c7.629-7.578 18.249-11.441 28.943-10.475l41.656 3.789a36.558 36.558 0 0 0 29.017-10.476l20.716-20.728"/>
+                <ellipse cx="245.672" cy="237.147" fill="#151515" fill-rule="nonzero" opacity=".824" rx="3.291" ry="3.269"/>
+                <path stroke="#FF5A5A" stroke-dasharray="50.4212158203125,60.02121582031251" stroke-width="7.633" d="M245.672 243.239c3.387 0 6.133-2.728 6.133-6.092 0-3.365-2.746-6.092-6.133-6.092s-6.132 2.727-6.132 6.092c0 3.364 2.745 6.092 6.132 6.092z"/>
+                <ellipse cx="302.21" cy="140.193" fill="#F0BF20" fill-rule="nonzero" opacity=".824" rx="3.291" ry="3.269"/>
+                <path stroke="#FACA35" stroke-dasharray="50.4212158203125,60.02121582031251" stroke-width="7.633" d="M302.21 146.285c3.387 0 6.133-2.727 6.133-6.092 0-3.365-2.746-6.092-6.133-6.092-3.386 0-6.132 2.727-6.132 6.092 0 3.365 2.746 6.092 6.132 6.092z"/>
+            </g>
+        </g>
+    </g>
+</svg>
