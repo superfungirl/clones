@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Openness</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="136.963839%" y1="96.4162545%" x2="12.4575396%" y2="42.1334295%" id="linearGradient-1">
+            <stop stop-color="#9CAFC9" offset="0%"></stop>
+            <stop stop-color="#A9BFDA" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="29.8455549" cy="29.8455549" r="29.8455549"></circle>
+        <rect id="path-4" x="0" y="0" width="42" height="42"></rect>
+        <linearGradient x1="0.367454482%" y1="-0.367454482%" x2="89.5423921%" y2="89.5423921%" id="linearGradient-6">
+            <stop stop-color="#E8EEF5" offset="0%"></stop>
+            <stop stop-color="#C0CDDF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-7" x="0" y="0" width="42" height="42"></rect>
+        <rect id="path-9" x="0" y="0" width="42" height="42"></rect>
+        <rect id="path-11" x="0" y="0" width="42" height="42"></rect>
+        <linearGradient x1="0%" y1="89.1749377%" x2="89.9098466%" y2="5.50774704e-15%" id="linearGradient-13">
+            <stop stop-color="#E8EEF5" offset="0%"></stop>
+            <stop stop-color="#C0CDDF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-697.000000, -1536.000000)">
+            <g id="Openness" transform="translate(697.000000, 1536.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+                <circle id="Oval-2-Copy-2" fill="#FFFFFF" fill-rule="nonzero" opacity="0.263337054" mask="url(#mask-3)" cx="11.5" cy="27.5" r="29.5"></circle>
+                <circle id="Oval-2-Copy-3" fill="#FFFFFF" fill-rule="nonzero" opacity="0.263337054" mask="url(#mask-3)" cx="47.5" cy="27.5" r="29.5"></circle>
+                <circle id="Oval-2-Copy" fill="#0172EF" fill-rule="nonzero" mask="url(#mask-3)" cx="30" cy="30" r="27"></circle>
+                <g mask="url(#mask-3)">
+                    <g transform="translate(30.000000, 30.000000) rotate(-135.000000) translate(-30.000000, -30.000000) translate(9.000000, 9.000000)">
+                        <g id="outer-layer" transform="translate(-0.000000, -0.000000)">
+                            <mask id="mask-5" fill="white">
+                                <use xlink:href="#path-4"></use>
+                            </mask>
+                            <g id="path-1"></g>
+                            <g id="White" mask="url(#mask-5)">
+                                <g transform="translate(5.918836, 17.479346) scale(-1, 1) rotate(38.000000) translate(-5.918836, -17.479346) translate(-4.881164, 8.479346)">
+                                    <path d="M1.07369906,1.04407524 C1.07369906,1.04407524 16.5867085,0.691222571 20.5595925,16.8434483" id="Path-16" stroke="url(#linearGradient-6)" stroke-width="1.93992121" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <circle id="Oval-7" stroke="none" fill="#FFFFFF" fill-rule="evenodd" cx="1.00786834" cy="1.04407524" r="1"></circle>
+                                </g>
+                            </g>
+                            <mask id="mask-8" fill="white">
+                                <use xlink:href="#path-7"></use>
+                            </mask>
+                            <g id="path-1"></g>
+                            <g id="White" mask="url(#mask-8)">
+                                <g transform="translate(24.795292, 5.963066) scale(-1, 1) rotate(-53.000000) translate(-24.795292, -5.963066) translate(13.995292, -3.036934)">
+                                    <path d="M1.08378671,1.03548017 C1.08378671,1.03548017 16.5967961,0.682627507 20.5696801,16.8348532" id="Path-16" stroke="url(#linearGradient-6)" stroke-width="1.93992121" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <circle id="Oval-7" stroke="none" fill="#FFFFFF" fill-rule="evenodd" cx="1.01795599" cy="1.03548017" r="1"></circle>
+                                </g>
+                            </g>
+                            <mask id="mask-10" fill="white">
+                                <use xlink:href="#path-9"></use>
+                            </mask>
+                            <g id="path-1"></g>
+                            <g id="White" mask="url(#mask-10)">
+                                <g transform="translate(36.096564, 24.791436) scale(-1, 1) rotate(-143.000000) translate(-36.096564, -24.791436) translate(25.296564, 15.791436)">
+                                    <path d="M1.07369906,1.04407524 C1.07369906,1.04407524 16.5867085,0.691222571 20.5595925,16.8434483" id="Path-16" stroke="url(#linearGradient-6)" stroke-width="1.93992121" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <circle id="Oval-7" stroke="none" fill="#FFFFFF" fill-rule="evenodd" cx="1.00786834" cy="1.04407524" r="1"></circle>
+                                </g>
+                            </g>
+                            <mask id="mask-12" fill="white">
+                                <use xlink:href="#path-11"></use>
+                            </mask>
+                            <g id="path-1"></g>
+                            <g id="White" mask="url(#mask-12)">
+                                <g transform="translate(17.292376, 36.072792) scale(-1, 1) rotate(127.000000) translate(-17.292376, -36.072792) translate(6.492376, 27.072792)">
+                                    <path d="M1.07369906,1.04407524 C1.07369906,1.04407524 16.5867085,0.691222571 20.5595925,16.8434483" id="Path-16" stroke="url(#linearGradient-6)" stroke-width="1.93992121" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <circle id="Oval-7" stroke="none" fill="#FFFFFF" fill-rule="evenodd" cx="1.00786834" cy="1.04407524" r="1"></circle>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="inside-layer" transform="translate(4.666667, 4.666667)">
+                            <path d="M10.3322386,10.4439634 C10.3322386,10.4439634 12.9047386,3.09396337 20.8978636,3.09396337" id="Path-12" stroke="url(#linearGradient-13)" stroke-width="1.93992121" stroke-linecap="round" stroke-linejoin="round" transform="translate(15.615051, 6.768963) rotate(32.000000) translate(-15.615051, -6.768963) "></path>
+                            <circle id="Oval-2" fill="#FFFFFF" transform="translate(22.093998, 6.540468) rotate(32.000000) translate(-22.093998, -6.540468) " cx="22.0939984" cy="6.54046835" r="1"></circle>
+                            <path d="M11.2510085,29.0158892 C11.2510085,29.0158892 13.8235085,21.6658892 21.8166335,21.6658892" id="Path-12" stroke="url(#linearGradient-13)" stroke-width="1.93992121" stroke-linecap="round" stroke-linejoin="round" transform="translate(16.533821, 25.340889) rotate(-148.000000) translate(-16.533821, -25.340889) "></path>
+                            <circle id="Oval-2" fill="#FFFFFF" transform="translate(10.084931, 25.637692) rotate(-148.000000) translate(-10.084931, -25.637692) " cx="10.084931" cy="25.6376917" r="1"></circle>
+                            <path d="M1.4862893,20.208547 C1.4862893,20.208547 4.0587893,12.858547 12.0519143,12.858547" id="Path-12" stroke="url(#linearGradient-13)" stroke-width="1.93992121" stroke-linecap="round" stroke-linejoin="round" transform="translate(6.769102, 16.533547) rotate(-58.000000) translate(-6.769102, -16.533547) "></path>
+                            <circle id="Oval-2" fill="#FFFFFF" transform="translate(6.540401, 10.084651) rotate(-58.000000) translate(-6.540401, -10.084651) " cx="6.54040092" cy="10.0846507" r="1"></circle>
+                            <path d="M20.1013698,19.4260753 C20.1013698,19.4260753 22.6732136,12.0760753 30.6669948,12.0760753" id="Path-12" stroke="url(#linearGradient-13)" stroke-width="1.93992121" stroke-linecap="round" stroke-linejoin="round" transform="translate(25.384182, 15.751075) rotate(123.000000) translate(-25.384182, -15.751075) "></path>
+                            <circle id="Oval-2" fill="#FFFFFF" transform="translate(25.511371, 22.230515) rotate(123.000000) translate(-25.511371, -22.230515) " cx="25.5113707" cy="22.2305152" r="1"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
