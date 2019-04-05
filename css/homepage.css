@@ -1,6 +1,8 @@
 body{
     color: #484f5f;
+    overflow: auto;
 }
+
 
 /*Take borders off the navbar*/
 .navbar.navbar-default, .navbar-collapse {
@@ -22,7 +24,9 @@ box-shadow: none;
 }
 
 .arrow-right i{
-    margin-top: 18px;
+    position: relative;
+    left: 170px;
+    bottom: 30px;
     font: 20px;
     color: #3163e1;
 }
@@ -269,7 +273,7 @@ p.margin-top{
     height: auto;
 }
 
-.decentralized-git-hosting h2{
+.decentralized-git-hosting h2, .ellcrys-protocol h2{
     font-size: 45px;
     line-height: 54.9px;
     font-weight: bold;
@@ -277,10 +281,10 @@ p.margin-top{
     padding-bottom: 20px;
 }
 
-.decentralized-git-hosting p{
+.decentralized-git-hosting p, .ellcrys-protocol p{
     font-size: 19px;
     font-size: 19px;
-    font-weight: 500;
+    /* font-weight: 500; */
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -302,3 +306,226 @@ p.margin-top{
     margin-left: -5px;
     text-decoration: none;
 }
+
+/*ellcrys-protocol*/
+
+.ellcrys-protocol{
+    background: #F1F5FA;
+    width: auto;
+    height: 800px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.protocol-checkbox{
+    margin-bottom: 50px;
+}
+
+.learn-more, .autonomous-functions a, .cryptocurrency-link{
+    background: #2F77FA;
+    padding: 8px 20px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.learn-more:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.see-docs{
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 8px 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.see-docs:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.learn{
+    margin-right: 30px;
+}
+
+.testnet{
+    margin-top: 40px;
+}
+
+small{
+    background: #28A745;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 20px;
+}
+
+/*Decentralized governance*/
+
+.decentralized-governance{
+    height: auto;
+    width: auto;
+    background: #3263DE;
+    font-family: monospace;
+    padding-bottom: 150px;
+    margin-bottom: 150px;
+}
+
+/*Discord card*/
+
+.discord-card{
+    background:#fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: auto;
+    margin-top: -100px;
+}
+
+.discord-card img{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.join-arrow{
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.discord-card-p{
+    margin-left: 90px;
+}
+
+.decentralized-governance-inner{
+    color: #fff;
+    margin-top: 100px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.decentralized-governance-inner h2, .open-collaboration h2,.autonomous-functions h2 h4, .cryptocurrency h2, .community h2{
+    margin-bottom: 25px;
+    font-size: 45px;
+    line-height: 54.9px;
+}
+
+.decentralized-governance-inner p, .open-collaboration p, .autonomous-functions p, .cryptocurrency p{
+    font-size: 19px;
+    line-height: 34.2px;
+    margin-bottom: 25px;
+}
+
+.decentralized-governance-inner .checkbox-div, .open-collaboration .checkbox-div, .autonomous-functions .checkbox-div, .cryptocurrency .checkbox-div{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.decentralized-governance-inner a{
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.open-collaboration{
+    margin-bottom: 150px;
+}
+
+/*autonomous functions*/
+
+.autonomous-functions, .cryptocurrency{
+    height: auto;
+    width: auto;
+    background: #F6F8FC;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.autonomous-functions .content, .cryptocurrency .content{
+    margin-left: 80px; /*Added margin-left to this div to adjust the content that's moving to the left*/
+}
+
+/*Community*/
+
+.community{
+    width: auto;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.community .content{
+    text-align: center;
+}
+
+.span-icons{
+    margin-top: 20px;
+    display: block;
+    font-size: 24px;
+
+}
+
+/*footer*/
+
+.footer{
+    width: auto;
+    height: auto;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.footer li{
+    padding: 5px;
+
+}
+
+.footer li a{
+    color: #48485f;
+    text-decoration: none;
+
+}
+
+.list-style-type ul li{
+    list-style-type: none;
+}
+
+.enter-email{
+    margin-left: 28px;
+}
+
+.span-icons, .span-icons i{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.form-group .subscribe-input{
+    border-radius: none;
+}
+
+.subscribe-button{
+    margin-left: -12px;
+    border-radius: 0;
+}
+
+.span-icons i:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.footer .content{
+    margin-left: 50px;
+}
+
+.bold, .bold li a{
+    font-weight: bold;
+    color: #484f5f;
+}
+
+

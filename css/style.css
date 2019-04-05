@@ -96,10 +96,16 @@ p{
 
 }
 
+ul {
+    list-style-type: none;
+}
+
 .footer li a{
     color: #48485f;
 
 }
+
+
 
 .enter-email{
     margin-left: 28px;
