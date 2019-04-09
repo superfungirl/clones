@@ -1,0 +1,71 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+/*reduce logo size*/
+
+.logo{
+    margin-right: 100px;
+}
+
+/* styling the two buttons on the navbar*/
+
+.button-right .outline-btn{
+    background:  #fbfbfd;
+    border: 2px solid #f5f5fa;
+}
+
+/*Introducing SafeHold and form for software testers*/
+
+.new{
+    width: auto;
+    height: 69px;
+    background-color: #0663ff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+/* styling class of small */
+
+.small{
+    text-transform: uppercase;
+    background: #fff;
+    color: #0663ff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.section{
+    width: auto;
+    height: 700px;
+
+}
+
+.register{
+    margin-bottom: 40px;
+}
+
+form{
+    padding: 25px;
+}
+
+.first-section{
+    background: transparent;
+    border: 2px solid #eef2f9;
+}
+
+.second-section{
+    /* background: ; */
+    border: 2px solid #eef2f9;
+}
+
+.aside{
+    margin-top: 50px;
+}
+
+.aside img{
+    margin-bottom: 20px;
+}
