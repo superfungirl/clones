@@ -16,7 +16,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="images/logo.svg" alt="Ellcrys Logo" width="130px" class="logo">
@@ -42,7 +42,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Getting Started <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#" style="color:#0663ff">Getting Started <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -113,8 +113,8 @@
             </div> <!--row-->
 
             <div class="row">
-                <div class="col-8 first-section">
-                    <form>
+                <div class="col-12 col-md-8 first-section">
+                    <form class="first-form">
                         <div class="form-row">
                             <div class= "form-group col-md-6">
                                 <input type="text" class="form-control" placeholder="First Name">
@@ -166,15 +166,15 @@
                             </label>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Register</button>
+                        <input type="submit" class="btn btn-primary">
                     </form>
                         
                 </div><!--col-8-->
 
-                <div class="col-1">
-                </div> <!--col-4-->
+                <!-- <div class="col-1">
+                </div> col-4 -->
 
-                <div class="col-3 second-section">
+                <div class="col-12 col-md-4 second-section">
                     <div class="text-center aside">
                         <img src="images/personal-details.svg" width="72">
                         <p><b>Personal Details</b></p>
@@ -184,14 +184,81 @@
                 </div> <!--col-3-->
             </div>
         </div><!--container-->
-    </div>
+    </div> <!--section-->
 
-    <!--<p>The 1st Testnet of Ellcrys SafeHold is live!</p>
-                    <p>We are launching an Alphanet Partnership Programme (APP) aimed at building and incentivising people to join and support the project by running nodes. The programme is sectioned into phases, with each phase introducing a new alphanet with new capabilities.</p> 
-                    <p>We consider the testnet as a vital platform for building a robust community and sound technology. The community will help the team test new features, provide valuable feedback and in turn the participants will earn weekly reward of 100 ELL token.</p>
-                    <p>By registering, you will be among the first to learn when the programme begins.</p>-->
+    <!--Last section before the footer-->
+    <div class="last-section">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center last-section-text">
+                    <h2>Join the <span style="color: #0663ff">Community</span></h2>
+                    <p class="text-center">A global community of makers, and individuals who collaborate to build.</p>
+                </div>
+            </div><!--row-->
+        </div><!--container-->
+    <!--last-section-->
     
+    <div class="footer-background">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center last-section-text">
+                    <span class="span-icons">
+                        <a href="#"><i style ="color: #0088CC" class="fab fa-telegram"></i></a>
+                        <a href="#"><i style="color: #00acee" class="fab fa-twitter"></i></a>
+                        <a href="#"><i style="color: #211F1F" class="fab fa-github"></i></a>
+                        <a href="#"><i style="color: #3b5998" class="fab fa-facebook"></i></a>
+                    </span>
+                </div>
+            </div><!--row-->
+        </div><!--container-->
+    </div> <!--footer-background-->
 
+    <!--footer-->
+
+    <div class="footer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p><b>Company</b></p>
+                        <p><a href="#">Ownership</a></p>
+                        <p><a href="#">Git Hosting</a></p>
+                        <p><a href="#">Collaboration</a></p>
+                        <p><a href="#">Governance</a></p>
+                        <p><a href="#">Smart Contract</a></p>
+                        <p><a href="#">PeopleMint</a></p>
+                        <p><a href="#">Block Explorer</a></p>
+                        <p><a href="#">Terms and Conditions</a></p>
+                        <p><a href="#">Privacy Policy</a></p>
+
+                    </div>
+                    <div class="col">
+                        <p><b>Ellcrys.com</b></p>
+                        <p><a href="#">Compute</a></p>
+                        <p><a href="#">Storage</a></p>
+                        <p><a href="#">Exchange</a></p>
+                        <p><a href="#">Marketplace</a></p>
+                        <p><a href="#">Payment</a></p>
+                    </div>
+                    <div class="col">
+                        <p><b>Resources</b></p>
+                        <p><a href="#">Ellcrys Whitepaper</a></p>
+                        <p><a href="#">PeopleMint Whitepaper</a></p>
+                        <p><a href="#">Wiki</a></p>
+                        <p><a href="#">Videos</a></p>
+                        <p><a href="#">Blog</a></p>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <p><b>Newsletter</b></p>
+                        Stay updated on awesome ideas being curated by our community
+                        <form class="form-inline form-down">
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </form>
+                        <img src="images/logo.svg" width="145px" height="21px">
+                    </div>
+                </div><!--row-->
+            </div><!--container-->
+        </div> <!--footer-background-->
 
 
 <!-- Bootstrap core JavaScript
