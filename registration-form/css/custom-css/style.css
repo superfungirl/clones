@@ -10,6 +10,10 @@ body{
     margin-right: 100px;
 }
 
+.nav-link{
+    font-size: 14px;
+}
+
 /* styling the two buttons on the navbar*/
 
 .button-right .outline-btn{
@@ -27,6 +31,7 @@ body{
     margin-bottom: 40px;
     color: #fff;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* styling class of small */
@@ -85,7 +90,7 @@ body{
 
 /*Styling the input elements*/
 
-input[type=text], [type=email], [type=number], [type=password], select {
+input[type=text], [type=number], [type=password], select, form-email {
     width: 100%;
     padding: 20px;
     border: 1px solid #ccc;
@@ -95,7 +100,7 @@ input[type=text], [type=email], [type=number], [type=password], select {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-    input[type=submit] {
+    .submit-form {
       width: 100%;
       margin-top: 0;
     }
@@ -141,6 +146,9 @@ input[type=text], [type=email], [type=number], [type=password], select {
  li{
      list-style-type: none;
  }
+.footer-section p a{
+    font-size: 14px;
+}
 
  /*Placeholder*/
  ::-webkit-input-placeholder {
@@ -162,5 +170,17 @@ input[type=text], [type=email], [type=number], [type=password], select {
      margin-left: auto;
      margin-right: auto;
  }
+
+ .footer-input{
+     width: 111px!important;
+     height: auto;
+ }
+
+.last-section-text{
+    background: url(../../images/bitmap-copy-7.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
 
  
