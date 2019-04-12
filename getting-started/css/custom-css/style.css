@@ -1,0 +1,108 @@
+body{
+    width: 100%;
+    height: 100%;
+    color: #565a5e;
+}
+
+/*reduce logo size*/
+
+.logo{
+    margin-right: 100px;
+}
+
+.nav-link{
+    font-size: 14px;
+}
+
+/* styling the two buttons on the navbar*/
+
+.button-right .outline-btn{
+    background:  #fbfbfd;
+    border: 2px solid #f5f5fa;
+}
+
+/*Styling the inception*/
+/*Introducing SafeHold and form for software testers*/
+
+.new{
+    width: auto;
+    height: 69px;
+    background-color: #0663ff;
+    margin-bottom: 40px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* styling class of small */
+
+.small{
+    text-transform: uppercase;
+    background: #fff;
+    color: #0663ff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+/*get started*/
+.get-started{
+    width: auto;
+    height: 453px;
+    padding-bottom: 50px;
+    overflow: auto;
+    background: url(../../images/bitmap.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.get-started h1{
+    color: #212731;
+}
+
+.get-started p{
+    color: #5b708b;
+
+}
+
+.icons{
+    /* background-image: url(../../images/icons.svg); */
+    background-color: #fff;
+    width: auto;
+    height: 158px;
+    position: relative;
+    bottom: 120px;
+    border-radius: 8px;
+}
+
+.icons img{
+    padding-top: 40px;
+    /* padding-bottom: 20px; */
+    display: block; 
+    margin: 0 auto
+}
+
+.add-border{
+    border: 1px solid;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      #fff, 
+      #bcc6d1
+    44%,
+    #fcfcfc);
+    border-image-slice: 1;
+}
+
+.big-blue-background{
+    background: #0663ff;
+    width: auto;
+    height: 500px;
+    padding-bottom: 150px;
+    margin-bottom: 150px;
+}
+
+.text-content p{
+    
+}

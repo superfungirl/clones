@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="501" viewBox="0 0 1440 501">
+    <defs>
+        <path id="a" d="M0 0h1440v501H0z"/>
+        <path id="c" d="M0 0h1440v632H0z"/>
+        <linearGradient id="e" x1="22.942%" x2="72.907%" y1="47.536%" y2="46.235%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#EEF1F9"/>
+        </linearGradient>
+        <linearGradient id="f" x1="92.74%" x2="67.719%" y1="43.06%" y2="22.506%">
+            <stop offset="0%" stop-color="#FCFDFE"/>
+            <stop offset="100%" stop-color="#EEF1F9"/>
+        </linearGradient>
+        <linearGradient id="g" x1="56.343%" x2="30.087%" y1="38.715%" y2="7.635%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#EEF1F9"/>
+        </linearGradient>
+        <linearGradient id="h" x1="45.662%" x2="75.847%" y1="84.209%" y2="53.42%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#EEF1F9"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 0 501)">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#FFF" xlink:href="#a"/>
+        <g mask="url(#b)">
+            <g transform="translate(0 -179)">
+                <mask id="d" fill="#fff">
+                    <use xlink:href="#c"/>
+                </mask>
+                <use fill="#FAFBFD" fill-rule="nonzero" xlink:href="#c"/>
+                <g fill-rule="nonzero" mask="url(#d)" opacity=".448">
+                    <path fill="url(#e)" d="M66 1254l627-627L1320 0H66z" transform="translate(190 -358)"/>
+                    <path fill="url(#f)" d="M696 1320V624L0 1320z" transform="translate(190 -358)"/>
+                    <path fill="#3163E1" d="M1535 322L937 920h598z" opacity=".097"/>
+                    <path fill="url(#g)" d="M1258 625v562L696 625z" style="mix-blend-mode:multiply" transform="translate(190 -358)"/>
+                    <path fill="url(#h)" d="M1345 24L747 622h598z" transform="translate(190 -358)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
