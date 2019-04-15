@@ -1,7 +1,7 @@
 body{
     width: 100%;
     height: 100%;
-    color: #565a5e;
+    color: #dee7f0;
 }
 
 /*reduce logo size*/
@@ -26,7 +26,7 @@ body{
 
 .new{
     width: auto;
-    height: 69px;
+    height: auto;
     background-color: #0663ff;
     margin-bottom: 40px;
     color: #fff;
@@ -48,8 +48,8 @@ body{
 /*get started*/
 .get-started{
     width: auto;
-    height: 453px;
-    padding-bottom: 50px;
+    height: auto;
+    padding-bottom: 200px;
     overflow: auto;
     background: url(../../images/bitmap.svg);
     background-repeat: no-repeat;
@@ -58,10 +58,13 @@ body{
 }
 .get-started h1{
     color: #212731;
+    font-size: 48px;
 }
 
 .get-started p{
     color: #5b708b;
+    font-size: 20px;
+    line-height: 30px;
 
 }
 
@@ -98,11 +101,92 @@ body{
 .big-blue-background{
     background: #0663ff;
     width: auto;
-    height: 500px;
-    padding-bottom: 150px;
-    margin-bottom: 150px;
+    height: auto;
+    padding-bottom: 300px;
 }
 
 .text-content p{
-    
+    color: #fff;
+    line-height: 35px;
+    font-size: 24px;
+    position: relative;
+    bottom: 50px;
 }
+
+.elld-btn{
+    position: relative;
+    bottom: 20px;
+}
+
+.elld-btn .button1{
+    background: #fff;
+    color: #0663ff;
+    margin-right: 20px;
+    width: 209px;
+    height: 60px;
+}
+
+.elld-btn .button2{
+    background: #6092e5;
+    color: #fff;
+    width: 209px;
+    height: 60px;
+}
+
+.fa-download, .fa-book-open{
+    margin-right: 15px;
+}
+/*media query for line break on the first section*/
+
+@media only screen and (max-width: 600px) {
+    br{
+        display: none;
+    }
+  }
+
+  /*cli*/
+
+  .cli{
+    background: #162437;
+    width: auto;
+    height: auto;
+    padding-bottom:665px;
+    margin-top: 80px; 
+    color: #fff;
+
+  }
+
+  .cli p{
+    margin-left: 50px;
+  }
+
+  .elld-client{
+    padding: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+
+  .start-elld{
+    font-size: 20px;
+    padding: 50px;
+
+  }
+
+  div.elld{
+    margin-left: -20px;
+  }
+
+  .elld-content{
+    margin-left: -12px;
+    /* color: #d8d8d8; */
+    opacity: 16%;
+  }
+
+  .elld-content p{
+    background: rgba(216, 216, 216, 0.16);
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-right: 25px;
+    border-radius: 4px;
+  }
