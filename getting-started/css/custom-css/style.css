@@ -102,7 +102,7 @@ body{
     background: #0663ff;
     width: auto;
     height: auto;
-    padding-bottom: 300px;
+    padding-bottom: 700px;
 }
 
 .text-content p{
@@ -116,21 +116,26 @@ body{
 .elld-btn{
     position: relative;
     bottom: 20px;
+    display: block;
 }
 
 .elld-btn .button1{
     background: #fff;
+    width: 209px;
     color: #0663ff;
-    margin-right: 20px;
-    width: 209px;
-    height: 60px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
-
-.elld-btn .button2{
-    background: #6092e5;
-    color: #fff;
+    .elld-btn .button2{
+    background: #0663ff;
+    margin-bottom: 10px;
     width: 209px;
-    height: 60px;
+    border-radius: 3px;
+    color: #fff;
+    box-shadow: 0 20px 60px 0 rgb(10, 46, 105, 0.08);
+    padding: 10px 20px;
 }
 
 .fa-download, .fa-book-open{
@@ -150,9 +155,11 @@ body{
     background: #162437;
     width: auto;
     height: auto;
-    padding-bottom:665px;
+    padding-bottom: 20px;
     margin-top: 80px; 
     color: #fff;
+    position: relative;
+    bottom: 750px;
 
   }
 
@@ -161,15 +168,19 @@ body{
   }
 
   .elld-client{
-    padding: 50px;
+    padding-top: 50px;
+    margin-bottom: 15px;
+    margin-left: 50px;
     font-size: 16px;
     text-transform: uppercase;
   }
 
 
   .start-elld{
+    margin-bottom: 15px;
+    margin-left: 20px;
     font-size: 20px;
-    padding: 50px;
+    padding-top: 50px;
 
   }
 
@@ -177,16 +188,76 @@ body{
     margin-left: -20px;
   }
 
-  .elld-content{
-    margin-left: -12px;
-    /* color: #d8d8d8; */
-    opacity: 16%;
-  }
-
   .elld-content p{
     background: rgba(216, 216, 216, 0.16);
     font-size: 14px;
-    padding: 10px 20px;
-    margin-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-left: 20px;
     border-radius: 4px;
   }
+
+  .um, .elld-account-create{
+    background: #0b1627;
+    padding: 20px;
+    color: #c5d0df;
+    margin-bottom: 20px;
+  }
+  .um small{
+    display: block;
+    font-size: 12px;
+  }
+
+  .um code, .elld-account-create code{
+    line-height: 20px;
+  }
+
+  .hr{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  code{
+    display: block; 
+    color: #c5d0df;
+  }
+  .elld-account{
+      margin-bottom: 20px;
+  }
+
+  .features{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    color: rgba(216, 216, 216, 0.16);
+
+  }
+
+  .elld-client-btn .btn{
+    background: #0663ff;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    left: 30px;
+  }
+
+  .instruction{
+    margin-top: 50px;
+    position: relative;
+    right: 50px;
+  }
+  .instruction p{
+    margin-top: 10px;
+    padding: 20px;
+  }
+.instruction small{
+    margin-left: 50px;
+    padding: 20px;
+}
+
+  /**/
+  

@@ -142,42 +142,112 @@
                     <div class="text-content text-center">
                         <p>Ellcrys CLI is the official client software used to connect and interact with the Ellcrys networks. With Elld, users will be able to start a private network, join an existing network, mine blocks, construct transactions and read the state of the network.</p>
                     </div>
-                    <div class="elld-btn text-center">
-                        <button type="button" class="btn btn-primary btn-lg button1"><i class="fas fa-download"></i>Download Elld</button>
-                        <button type="button" class="btn btn-lg button2"><i class="fas fa-book-open"></i>View Docs</button>
-                    </div>
+                    <span class="elld-btn text-center col-sm">
+                        <a href="#" class="btn btn-lg button1" role="button" aria-pressed="true"><i class="fas fa-download"></i>Download Elld</a>
+                        <a href="#" class="btn btn-lg button2" role="button" aria-pressed="true"><i class="fas fa-book-open"></i>View Docs</a>
+                    </span>
                     
                 </div><!--col-->
             </div><!--row-->
         </div><!--container-->
+    </div> <!--big blue -->
 
         <!--cli-->
-        <div class="container">
-            <div class="cli">
-                <div class = "row">
-                    <div class="col">
-                        <div class="elld-client">Elld Client</div>
-                        <div class="col-md-12 elld-content">
-                            <p> Start Elld (with ephemeral key)</p>
-                        </div>
-                        <div class="col-md-12 elld-content">
-                            <p> Start Elld (with a local account)</p>
-                        </div>
+    <div class="container">
+        <div class="cli">
+            <div class = "row">
+                <div class="col-sm col-md">
+                    <div class="elld-client">Elld Client</div>
+                    <div class="elld-content">
+                        <p class="elld-content col-sm-12"> Start Elld (with ephemeral key)</p>
                     </div>
-
-                    <div class="col">
-                        <div class="start-elld">Start Elld (with a local account)</div>
-
+                    <div class="elld-content">
+                        <p class="col-sm-12 col-md-12" style="background: #fff; color: #162437"> Start Elld (with a local account)</p>
                     </div>
-
-                    <div class="col">
+                    <div class="elld-content">
+                        <p class="col-sm-8 col-md-8"> Join the Network</p>
+                    </div>
+                    <div class="elld-content">
+                        <p class="col-sm-8 col-md-8"> Start RPC Service</p>
+                    </div>
+                    <div class="elld-content">
+                        <p class="col-sm-10 col-md-10"> Attach To a Running Client</p>
+                    </div>
+                    <div class="elld-content">
+                        <p class="col-sm-8 col-md-8"> Create Account</p>
+                    </div>
+                    <div class="elld-content">
+                        <p class="col-sm-6 col-md-6"> Docker</p>
+                    </div>
+                    <div class="elld-content">
+                        <p class="col-sm-10 col-md-10"> Build a docker container</p>
+                    </div>
+                    <div class="col-sm-12 col-md-12">
+                        <code class="features">For more features</code>
                         
-
+                        <span class="elld-client-btn col-sm-12">
+                            <button type="button" class="btn btn-primary btn-lg button1">Get Started <i class="fas fa-arrow-right"></i></button>
+                        </span>
                     </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="start-elld">Start Elld (with a local account)</div>
+                    <div class="col-sm">
+                        <div class="um">
+                            <code style="font-size: 12px" class="elld-account">To start Elld, use the following command:</code style="font-size: 12px">
+                            <code>elld start -a <span style="color: #24b47e">"0.0.0.0: 9000"</span> --account<br>
+                                "eFjwxLSvseLSafgqMk4UGsnBNUfUy6N2hh"
+                            </code>
+                            <div class="hr"></div>
+                            <div>
+                                <span style="font-size: 12px"><i class="fas fa-chevron-right"></i> Show Response</span>
+                            </div>
+                        </div> <!--um-->
+                    </div>
+
+                    <!--elld account create-->
+                    <div class="col-sm">
+                        <div class="elld-account-create">
+                            <code class="elld-account">elld account create</code>
+                            <code># Output</code>
+                            <code># New account created, encrypted and stored</code>
+                            <code># Address: eFjwxLSvseLSafgqMk4UGsnBNUfUy6N2hh</code>
+
+                            <div class="hr"></div>
+                            <div>
+                                <span style="font-size: 12px"><i class="fas fa-chevron-right"></i> Show Response</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--to start elld-->
+                    <div class="col-sm">
+                        <div class="elld-account-create">
+                            <code style="font-size: 12px"
+                            style="font-size: 12px" class="elld-account">To start Elld, use the following command:</code>
+                            <code>elld start \ </code>
+                            <code>- a <span style="color: #24b47e">"0.0.0.0:9000" </span> \</code>
+                            <code>- j <span style="color: #24b47e">"ellcrys: //" </span></code>
+                            <code style="color: #24b47e">12D3KooWGZxHXA3P9SxyMRYecgyKggAmdviTkKKVnmUCaWUbbQoJ@35.241.79.20:9000"</code>
+
+                            <div class="hr"></div>
+                            <div>
+                                <span style="font-size: 12px"><i class="fas fa-chevron-right"></i> Show Response</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <!--col 6-->
+
+                <div class="col-sm col-md-3 instruction">
+                    <small>INSTRUCTION</small>
+                    <p>When the node starts, an ephemeral key is used to derive the node's identity when interacting with other nodes on the network. Ephemeral keys are temporary; They are disposed of when the node stops running.</p>
                 </div>
             </div>
         </div>
     </div>
+   
 
     
     
