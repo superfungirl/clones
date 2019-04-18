@@ -259,5 +259,118 @@ body{
     padding: 20px;
 }
 
-  /**/
+  /*get safehold*/
+
+  .get-safehold{
+  width: auto;
+  height: auto;
+  padding: 20px 0 50px 0;
+  background-image: linear-gradient(to top, #fdfeff, #fbfcff);
+  margin-top: -950px;
+  color: #212731;
+}
+
+.safehold-clear-margin{
+  font-size: 36px;
+  margin-top: 250px;
+}
+
+.safehold-clear-margin + p{
+  font-size: 20px;
+  line-height: 1.5;
+}
   
+.get-safehold img{
+  margin-top: 200px;
+  width: 800px;
+  height: 530px;
+}
+
+/* For safehold image width 400px and larger: */
+@media only screen and (max-width: 425px) {
+  .get-safehold img{ 
+    width: 100%;
+    margin: 0;
+}
+}
+
+.create-accounts{
+  background: #fff;
+  padding: 10px 10px ;
+  color: #29313b;
+  line-height: 24px;
+  margin-top: 50px;
+
+}
+
+.create-accounts .title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.create-accounts p{
+  font-size: 16px;
+
+}
+
+.remove-background{
+  background: transparent;
+}
+
+.community{
+  background: url(../../images/bitmap-copy-6.jpg);
+  width: auto;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.button-community .btn{
+  background: #2b3f4d;
+  color: #fff;
+}
+
+
+.add-border-community{
+  border: 1px;
+  border-style: solid;
+  border-image: 
+  linear-gradient(
+    to bottom, 
+    #092032, 
+    #ffffff 47%, 
+    #092032);
+  border-image-slice: 1;
+}
+
+.installation{
+  background: #fff;
+  color: #5b708b;
+}
+
+.node, .spells{
+  margin-top: 100px;
+}
+
+.button-installation .btn{
+  background: #0663ff;
+  color: #fff;
+}
+
+.initialization{
+  width: 523px;
+  height: 373px;
+  background: #fff;
+  border: 1px solid red;
+  color:#bcc6d1;
+}
+
+.initialization code{
+  color: #24b47e;
+}
+
+.initialization-content{
+  margin: 15px;
+  padding: 5px;
+  border-bottom: 1px solid #f6f7f9;
+}
