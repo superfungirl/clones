@@ -25,36 +25,36 @@ body{
 /*Introducing SafeHold and form for software testers*/
 
 .new{
-    width: auto;
-    height: auto;
-    background-color: #0663ff;
-    margin-bottom: 40px;
-    color: #fff;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  width: auto;
+  height: auto;
+  background-color: #0663ff;
+  margin-bottom: 40px;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* styling class of small */
 
 .small{
-    text-transform: uppercase;
-    background: #fff;
-    color: #0663ff;
-    padding: 5px;
-    border-radius: 5px;
+  text-transform: uppercase;
+  background: #fff;
+  color: #0663ff;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 
 /*get started*/
 .get-started{
-    width: auto;
-    height: auto;
-    padding-bottom: 200px;
-    overflow: auto;
-    background: url(../../images/bitmap.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+width: auto;
+height: auto;
+padding-bottom: 30px;
+overflow: auto;
+background: url(../../images/bitmap.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 .get-started h1{
     color: #212731;
@@ -65,7 +65,17 @@ body{
     color: #5b708b;
     font-size: 20px;
     line-height: 30px;
+    margin-bottom: 150px;
 
+}
+
+/*Big blue background*/
+
+.big-blue-background{
+  background: #0663ff;
+  width: auto;
+  height: auto;
+  /* padding-bottom: 700px; */
 }
 
 .icons{
@@ -86,31 +96,36 @@ body{
 }
 
 .add-border{
-    border: 1px solid;
-    border-style: solid;
-    border-image: 
-    linear-gradient(
-      to bottom, 
-      #fff, 
-      #bcc6d1
-    44%,
-    #fcfcfc);
-    border-image-slice: 1;
+  border: 1px;
+  border-style: solid;
+  border-image: 
+  linear-gradient(
+    to bottom, 
+    #fff, 
+    #bcc6d1 44%,
+  #fcfcfc);
+  border-image-slice: 1;
 }
 
-.big-blue-background{
-    background: #0663ff;
-    width: auto;
-    height: auto;
-    padding-bottom: 700px;
+.icons p{
+  color: #5b708b;
+  font-size: 18px;
+  margin-bottom: -5px;
 }
+
+.icons span{
+  font-size: 10px;
+  color: #5b708b;
+}
+
+
 
 .text-content p{
-    color: #fff;
-    line-height: 35px;
-    font-size: 24px;
-    position: relative;
-    bottom: 50px;
+  color: #fff;
+  line-height: 35px;
+  font-size: 24px;
+  margin-bottom: 50px;
+  
 }
 
 .elld-btn{
@@ -282,7 +297,7 @@ body{
   
 .get-safehold img{
   margin-top: 200px;
-  width: 800px;
+  width: auto;
   height: 530px;
 }
 
