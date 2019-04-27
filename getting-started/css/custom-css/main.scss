@@ -1,0 +1,726 @@
+$colors: (
+    primary: #0663ff,
+    secondary: #212731,
+    secondary-light: #5b708b,
+    white: #fff,
+    cli: #0b1627,
+    cli2: #162437,
+    cli-light: #d8d8d8,
+    cli-light2: rgba(216, 216, 216, 0.16),
+    elld-start: #c5d0df,
+    hr:rgba(255, 255, 255, 0.09),
+    alt-color: #24b47e,
+    alt-color-2: #4b5b78,
+    create-accounts: #29313b,
+    create-accounts-2: #46586b,
+    community: #2b3f4d,
+    git-checkbox: #8d99a8,
+    git-checkbox-alt: #15bd76,
+    ellscan: #f1f5fb,
+    become-a-miner: #969da7,
+    join-the-community: #484f5f,
+    join-the-community2: #494f5e
+    
+);
+
+@function color($color-name){
+    @return map-get($colors, $color-name);
+}
+
+$font-sizes:(
+    tiny: 12px,
+    little: 14px,
+    little2: 16.8px,
+    small: 18px,
+    big: 20px,
+    bigger: 24px,
+    thirty-six: 36px,
+    biggest: 48px,
+);
+
+@function font-size($fonts){
+    @return map-get($font-sizes, $fonts);
+}
+
+$padding: 15px;
+$borders: 15px;
+$width: 41px;
+$margin: 10px;
+
+$sm: 1024px;
+
+@mixin sm {
+    @media(max-width: #{$sm}){
+        @content;
+    }
+}
+
+
+body, html{
+    height: 100%;
+
+}
+
+.add-border{
+    border: 1px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+    to bottom, 
+    #fff, 
+    #bcc6d1 44%,
+    #fcfcfc);
+    border-image-slice: 1;
+}
+
+.add-primary-color{
+    color: color(primary)!important;
+}
+
+.add-secondary-color{
+    color: color(secondary);
+}
+
+.add-secondary-light{
+    color: color(secondary-light);
+}
+
+.add-alt-color{
+    color: color(alt-color)!important;
+}
+
+nav{
+
+    .logo{
+        width: 100px;
+    }
+
+    .nav-link{
+        font-size: font-size(little);
+    }
+
+    .outline-btn{
+        font-size: font-size(tiny);
+    }
+
+    .sign-in{
+        font-size: font-size(little);
+    }
+}
+
+.get-started{
+    background-image: url(../../images/bitmap.svg);
+    width: auto;
+    height: auto;
+    padding: $padding * 3 + 5 0 $padding * 3 + 5;
+
+    .new{
+        background-color: color(primary);
+        width: 100%;
+        height: 69px;
+
+        .new-inception{
+            padding: 1em;
+            // margin: 1em;
+            color: color(white);
+
+            small{
+                background:color(white);
+                color: color(primary);
+                padding: 5px;
+                font-size: font-size(tiny) - 1;
+                border-radius: 4px;
+            }
+
+            span{
+                font-size: font-size(small);
+            }
+        }
+    }
+
+    .get-started-with-ellcrys{
+        padding: $padding *3 + 5 0;
+
+        h1{
+            font-size: font-size(biggest);
+            color: color(secondary);
+        }
+        p{
+            font-size: font-size(big);
+            color: color(secondary-light);
+            padding: 0 $padding;
+        }
+    }
+}
+
+.big-blue-background{
+    background: color(primary);
+    width: 100%;
+    height: auto;
+    padding-bottom: $padding * 50;
+
+    .icons{
+        background: color(white);
+        width: 100%;
+        border-radius: 6px;
+        position: relative;
+        bottom: 50px;
+        padding: $padding *2 $padding $padding *2;
+
+        img{
+            width: $width;
+            height: 55px;
+        }
+
+        p{
+            font-size: font-size(small);
+            color: color(secondary-light);
+        }
+
+        span{
+            font-size: font-size(tiny)-2;
+            color: color(secondary-light);
+        }
+    }
+
+    .text-content{
+        color: color(white);
+        font-size: font-size(bigger);
+        padding: $padding;
+    }
+
+    .button1{
+        background: color(white);
+        color: color(primary);
+        margin: $margin;
+        padding: $padding;
+        width: 209px;
+        height: 60px;
+    }
+
+    .button2{
+        background: color(white);
+        color: color(primary);
+        padding: $padding;
+        margin: $margin;
+        width: 209px;
+        height: 60px;
+    }
+
+}
+
+.get-safehold{
+    width: 100%;
+    background: linear-gradient(
+        to top, #fdfeff, #fbfcff
+        );    
+    @include sm{
+        width: 100%;
+    }
+
+
+    .cli{
+        background: color(cli2);
+        width: 1200px;
+        margin: 0 auto;
+        height: auto;
+        padding: $padding * 3 0;
+        position: relative;
+        bottom: 700px;
+        margin-bottom: -700px; //Using negative margin-bottom to cover up the empty space that relative positioning created
+
+        @include sm{
+            width: 100%;
+        }
+        
+
+        .elld-client{
+
+            .uppercase{
+                color: color(white);
+                text-transform: uppercase;            
+            }
+
+            .change-background{
+                background: color(white);
+                color: color(cli2);
+                border-radius: 4px;
+
+                p{
+                    font-size: font-size(little);
+                    padding: $padding - 5 $padding - 10;
+                }
+            }
+
+            .elld-content{
+                background: color(cli-light2);
+                color: color(white);
+                border-radius: 4px;
+
+                p{
+                    font-size: font-size(little);
+                    padding: $padding - 5 $padding - 10;
+                }
+
+            }
+
+            .more-features{
+                margin: 0;
+                text-align: left !important;
+                code{
+                    color: color(cli-light2); 
+                    font-size:font-size(little) + 2; 
+                    display: block;
+                    padding: $padding 0;          
+                }
+            }
+
+            .elld-client-btn{
+                .btn{
+                    background: color(primary);
+                    width: 80%;
+
+                    @include sm{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        // start elld
+
+        .start-elld{
+
+            p {
+                color: color(white);
+                font-size: font-size(big);
+
+            }
+
+            .um{
+                background: color(cli);
+                border-radius: 6px;
+                padding: $padding $padding * 2;
+                margin-bottom: $margin * 2;
+
+                code{
+                    color: color(elld-start);
+                    display: block;
+                }
+
+                .tiny{
+                    font-size: font-size(tiny);
+                }
+
+                .little{
+                    font-size: font-size(little);
+                }
+
+                .hr{
+                    border-bottom: 1px solid color(hr);
+                    margin: $margin * 2 0;
+                }
+                span{
+                    color: color(elld-start);
+                }
+
+            }
+        }
+
+        .instruction{
+            padding: $padding * 2 $padding * 2;
+            small{
+                color: color(alt-color-2);
+            }
+            span{
+                color: color(elld-start);
+                display: block;
+            }
+        }
+    } //cli
+
+    .get-safehold-content{
+
+        padding: $padding * 3 0;
+        .create-account-safehold{
+            .font-thirty-six{
+                font-size: font-size(thirty-six);
+                font-weight: 600;
+            }
+    
+            .big{
+                font-size: font-size(big); 
+            }
+
+            .create-accounts{
+                background: color(white);
+                box-shadow: 0 15px 46px 0 rgba(3, 6, 52, 0.07);
+                border-radius: 5px;
+                padding: $padding + 5;
+                margin-bottom: $margin;
+
+                img{
+                    width: 24px;
+                    height: 24px;
+                    margin-right: $margin;
+                }
+
+                span{
+                    display: inline-block;
+                }
+
+                .title{
+                    font-size: font-size(big);
+                    color:color(create-accounts);
+                    padding-bottom: $padding;
+                    font-weight: 500;
+
+                }
+
+                p{
+                    color: color(create-accounts-2);
+                    font-size: font-size(little);
+                }
+            }
+
+            .create-account-button{
+                margin: 20px auto;
+            }
+
+            .btn{
+                background: color(primary);
+                color: color(white);
+                width: 100%;
+                padding: $padding;
+
+                .fas{
+                    padding-right: 50px;
+                }
+            }
+        }
+
+        .safehold-img{
+            img{
+                width: 100%;
+                height: 100%;    
+            }
+        }
+
+        
+
+    }
+
+}// get safehold
+
+//first footer section
+
+.community{
+    background-image: url(../../images/bitmap-copy-6.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    padding: $padding * 6 0;
+    color: color(white);
+
+    .add-community-border{
+        border: 1px;
+        border-style: solid;
+        border-image: 
+        linear-gradient(
+          to bottom, 
+          #092032, 
+          #ffffff 47%, 
+          #092032);
+        border-image-slice: 1;
+        opacity:0.5;
+
+    }
+
+    .content{
+        padding: $padding;
+
+        img{
+            width: 24px;
+            height: 24px;
+            margin-bottom: $margin;
+        }
+    
+
+        .title{
+            font-size: font-size(bigger);
+        }
+    
+        .paragraph{
+            font-size: font-size(little2);
+            opacity: 0.7;
+            line-height: 1.71;
+        }
+
+        .button-community{
+
+            .btn{
+                background: color(community);
+                color: color(white);
+            }
+        }
+
+    }
+    
+}//community
+
+//installation for node
+
+.installation{
+    width: 100%;
+    padding: $padding * 6 0;
+   
+
+    .installation-img{
+        padding: 0 $padding * 2 $padding;
+        img{
+            width: 100%;
+            object-fit: contain;
+            box-shadow: 0 13px 60px 0 rgba(238, 240, 242, 0.78);
+            background: color(white);
+            border-radius: 4px;
+        }
+    }
+
+    .add-background-image{
+        background-image: url(../../images/pixel-pattern-top-right-dark.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        padding: 0 $padding *3;
+
+        .paragraph-content{
+            font-size: font-size(big);
+            color: color(secondary-light);
+            line-height: 1.6;
+        }
+
+        .git-checkbox{
+            color: color(git-checkbox);
+
+            .checkbox-div{
+                padding: $padding 0;
+            }
+
+            i{
+                color: color(git-checkbox-alt);
+                margin-right: $margin;
+            }
+
+            .button-installation{
+                i{
+                    color: color(white);
+                }
+                .btn{
+                    background: color(primary);
+                    color: color(white);
+                }
+                
+            }
+
+        }
+    }
+
+    .title{
+        font-size: font-size(thirty-six);
+        font-weight: 600;
+    }
+}
+
+.ellscan{
+    background: color(ellscan);
+    width: 100%;
+    padding: $padding * 3 0 0;
+    overflow: hidden;
+
+
+    .add-background{
+        background: color(white);
+        padding: $padding * 3 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .title{
+        font-size: font-size(thirty-six);
+        font-weight: 600;
+    }
+
+    .ellscan-content{
+        p{
+            color: color(secondary-light);
+        }
+    }
+
+    .checkbox-div{
+
+        color: color(git-checkbox);
+        i{
+            color: color(git-checkbox-alt);
+            margin-right: $margin;
+        }
+        span{
+            display: inline-block;
+            font-size: font-size(little) + 2;
+        }
+    }
+
+    .create-account-button{
+        margin: 20px auto;
+    }
+
+    .btn{
+        background: color(primary);
+        color: color(white);
+        padding: $padding;
+
+        .fas{
+            padding-right: 50px;
+        }
+    }
+
+    .absolute{
+        position: absolute;
+        img{
+            width: 438px;
+
+            @include sm{
+                width: 100%;
+            }
+        }
+    }
+
+    .relative{
+        position: relative;
+        top: 110px;
+        right: 100px;
+        z-index: 1;
+
+
+        img{
+            width: 371px;
+
+            @include sm{
+                width: 100%;
+            }
+        }
+    }
+}
+
+//become a miner
+.become-a-miner{
+    background: url(../../images/miner-bg.svg);
+    width: 100%;
+    height: auto;
+    padding: $padding * 3 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .text-content{
+
+        padding: $padding * 3 $padding;
+
+        .title{
+            text-transform: uppercase;
+            color: color(become-a-miner);
+            font-size: font-size(little)+2;
+        }
+
+        .heading{
+            font-size: font-size(biggest) - 2;
+            color: color(white);
+            line-height: 60px;
+            font-weight: 600;
+        }
+
+        .get-ell-coins{
+            font-size: font-size(big)+2;
+            line-height: 32px;
+            color: color(become-a-miner);
+        }
+
+        .btn{
+            background: color(primary);
+            color: color(white);
+            width: 227.4px;
+            height: 58.1px;
+        }    
+    }
+}
+
+//Join the community
+.join-the-community{
+    padding: $padding *5 0;
+
+    .content{
+
+        .title{
+            font-size: font-size(thirty-six);
+            font-weight: 600;
+            color: color(join-the-community);
+        }
+
+        .paragraph-text{
+            color: color(join-the-community2);
+            font-size: font-size(little);
+            line-height: 19px;
+        }
+
+        
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .span-icons{
+        i{
+        margin: 0 $margin;
+        font-size: font-size(bigger);
+        }
+        .fa-telegram{
+            color: #0088cc;
+        }
+        .fa-twitter{
+            color: #1da1f2;
+        }
+        .fa-github{
+            color: #333;
+        }
+        .fa-facebook{
+            color: #3b5998;
+        }
+    }
+}
+
+.footer{
+    color: color(join-the-community)!important;
+    .title{
+        font-size: font-size(small);
+        font-weight: 500;
+    }
+
+    p{
+        margin: $margin * 2 0;
+
+        a{
+            color: color(join-the-community);
+        }
+
+        a:hover{
+            text-decoration: none;
+        }
+    }
+    img{
+        width: 145.9px;
+        height: 21.1px;
+    }
+}
+
+

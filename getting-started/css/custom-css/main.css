@@ -1,0 +1,629 @@
+body, html {
+  height: 100%;
+}
+
+.add-border {
+  border: 1px;
+  border-style: solid;
+  -o-border-image: linear-gradient(to bottom, #fff, #bcc6d1 44%, #fcfcfc);
+     border-image: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(44%, #bcc6d1), to(#fcfcfc));
+     border-image: linear-gradient(to bottom, #fff, #bcc6d1 44%, #fcfcfc);
+  border-image-slice: 1;
+}
+
+.add-primary-color {
+  color: #0663ff !important;
+}
+
+.add-secondary-color {
+  color: #212731;
+}
+
+.add-secondary-light {
+  color: #5b708b;
+}
+
+.add-alt-color {
+  color: #24b47e !important;
+}
+
+nav .logo {
+  width: 100px;
+}
+
+nav .nav-link {
+  font-size: 14px;
+}
+
+nav .outline-btn {
+  font-size: 12px;
+}
+
+nav .sign-in {
+  font-size: 14px;
+}
+
+.get-started {
+  background-image: url(../../images/bitmap.svg);
+  width: auto;
+  height: auto;
+  padding: 50px 0 50px;
+}
+
+.get-started .new {
+  background-color: #0663ff;
+  width: 100%;
+  height: 69px;
+}
+
+.get-started .new .new-inception {
+  padding: 1em;
+  color: #fff;
+}
+
+.get-started .new .new-inception small {
+  background: #fff;
+  color: #0663ff;
+  padding: 5px;
+  font-size: 11px;
+  border-radius: 4px;
+}
+
+.get-started .new .new-inception span {
+  font-size: 18px;
+}
+
+.get-started .get-started-with-ellcrys {
+  padding: 50px 0;
+}
+
+.get-started .get-started-with-ellcrys h1 {
+  font-size: 48px;
+  color: #212731;
+}
+
+.get-started .get-started-with-ellcrys p {
+  font-size: 20px;
+  color: #5b708b;
+  padding: 0 15px;
+}
+
+.big-blue-background {
+  background: #0663ff;
+  width: 100%;
+  height: auto;
+  padding-bottom: 750px;
+}
+
+.big-blue-background .icons {
+  background: #fff;
+  width: 100%;
+  border-radius: 6px;
+  position: relative;
+  bottom: 50px;
+  padding: 30px 15px 30px;
+}
+
+.big-blue-background .icons img {
+  width: 41px;
+  height: 55px;
+}
+
+.big-blue-background .icons p {
+  font-size: 18px;
+  color: #5b708b;
+}
+
+.big-blue-background .icons span {
+  font-size: 10px;
+  color: #5b708b;
+}
+
+.big-blue-background .text-content {
+  color: #fff;
+  font-size: 24px;
+  padding: 15px;
+}
+
+.big-blue-background .button1 {
+  background: #fff;
+  color: #0663ff;
+  margin: 10px;
+  padding: 15px;
+  width: 209px;
+  height: 60px;
+}
+
+.big-blue-background .button2 {
+  background: #fff;
+  color: #0663ff;
+  padding: 15px;
+  margin: 10px;
+  width: 209px;
+  height: 60px;
+}
+
+.get-safehold {
+  width: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#fdfeff), to(#fbfcff));
+  background: linear-gradient(to top, #fdfeff, #fbfcff);
+}
+
+@media (max-width: 1024px) {
+  .get-safehold {
+    width: 100%;
+  }
+}
+
+.get-safehold .cli {
+  background: #162437;
+  width: 1200px;
+  margin: 0 auto;
+  height: auto;
+  padding: 45px 0;
+  position: relative;
+  bottom: 700px;
+  margin-bottom: -700px;
+}
+
+@media (max-width: 1024px) {
+  .get-safehold .cli {
+    width: 100%;
+  }
+}
+
+.get-safehold .cli .elld-client .uppercase {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.get-safehold .cli .elld-client .change-background {
+  background: #fff;
+  color: #162437;
+  border-radius: 4px;
+}
+
+.get-safehold .cli .elld-client .change-background p {
+  font-size: 14px;
+  padding: 10px 5px;
+}
+
+.get-safehold .cli .elld-client .elld-content {
+  background: rgba(216, 216, 216, 0.16);
+  color: #fff;
+  border-radius: 4px;
+}
+
+.get-safehold .cli .elld-client .elld-content p {
+  font-size: 14px;
+  padding: 10px 5px;
+}
+
+.get-safehold .cli .elld-client .more-features {
+  margin: 0;
+  text-align: left !important;
+}
+
+.get-safehold .cli .elld-client .more-features code {
+  color: rgba(216, 216, 216, 0.16);
+  font-size: 16px;
+  display: block;
+  padding: 15px 0;
+}
+
+.get-safehold .cli .elld-client .elld-client-btn .btn {
+  background: #0663ff;
+  width: 80%;
+}
+
+@media (max-width: 1024px) {
+  .get-safehold .cli .elld-client .elld-client-btn .btn {
+    width: 100%;
+  }
+}
+
+.get-safehold .cli .start-elld p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.get-safehold .cli .start-elld .um {
+  background: #0b1627;
+  border-radius: 6px;
+  padding: 15px 30px;
+  margin-bottom: 20px;
+}
+
+.get-safehold .cli .start-elld .um code {
+  color: #c5d0df;
+  display: block;
+}
+
+.get-safehold .cli .start-elld .um .tiny {
+  font-size: 12px;
+}
+
+.get-safehold .cli .start-elld .um .little {
+  font-size: 14px;
+}
+
+.get-safehold .cli .start-elld .um .hr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+  margin: 20px 0;
+}
+
+.get-safehold .cli .start-elld .um span {
+  color: #c5d0df;
+}
+
+.get-safehold .cli .instruction {
+  padding: 30px 30px;
+}
+
+.get-safehold .cli .instruction small {
+  color: #4b5b78;
+}
+
+.get-safehold .cli .instruction span {
+  color: #c5d0df;
+  display: block;
+}
+
+.get-safehold .get-safehold-content {
+  padding: 45px 0;
+}
+
+.get-safehold .get-safehold-content .create-account-safehold .font-thirty-six {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.get-safehold .get-safehold-content .create-account-safehold .big {
+  font-size: 20px;
+}
+
+.get-safehold .get-safehold-content .create-account-safehold .create-accounts {
+  background: #fff;
+  -webkit-box-shadow: 0 15px 46px 0 rgba(3, 6, 52, 0.07);
+          box-shadow: 0 15px 46px 0 rgba(3, 6, 52, 0.07);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.get-safehold .get-safehold-content .create-account-safehold .create-accounts img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.get-safehold .get-safehold-content .create-account-safehold .create-accounts span {
+  display: inline-block;
+}
+
+.get-safehold .get-safehold-content .create-account-safehold .create-accounts .title {
+  font-size: 20px;
+  color: #29313b;
+  padding-bottom: 15px;
+  font-weight: 500;
+}
+
+.get-safehold .get-safehold-content .create-account-safehold .create-accounts p {
+  color: #46586b;
+  font-size: 14px;
+}
+
+.get-safehold .get-safehold-content .create-account-safehold .create-account-button {
+  margin: 20px auto;
+}
+
+.get-safehold .get-safehold-content .create-account-safehold .btn {
+  background: #0663ff;
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+}
+
+.get-safehold .get-safehold-content .create-account-safehold .btn .fas {
+  padding-right: 50px;
+}
+
+.get-safehold .get-safehold-content .safehold-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.community {
+  background-image: url(../../images/bitmap-copy-6.jpg);
+  background-repeat: no-repeat;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  padding: 90px 0;
+  color: #fff;
+}
+
+.community .add-community-border {
+  border: 1px;
+  border-style: solid;
+  -o-border-image: linear-gradient(to bottom, #092032, #ffffff 47%, #092032);
+     border-image: -webkit-gradient(linear, left top, left bottom, from(#092032), color-stop(47%, #ffffff), to(#092032));
+     border-image: linear-gradient(to bottom, #092032, #ffffff 47%, #092032);
+  border-image-slice: 1;
+  opacity: 0.5;
+}
+
+.community .content {
+  padding: 15px;
+}
+
+.community .content img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 10px;
+}
+
+.community .content .title {
+  font-size: 24px;
+}
+
+.community .content .paragraph {
+  font-size: 16.8px;
+  opacity: 0.7;
+  line-height: 1.71;
+}
+
+.community .content .button-community .btn {
+  background: #2b3f4d;
+  color: #fff;
+}
+
+.installation {
+  width: 100%;
+  padding: 90px 0;
+}
+
+.installation .installation-img {
+  padding: 0 30px 15px;
+}
+
+.installation .installation-img img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-box-shadow: 0 13px 60px 0 rgba(238, 240, 242, 0.78);
+          box-shadow: 0 13px 60px 0 rgba(238, 240, 242, 0.78);
+  background: #fff;
+  border-radius: 4px;
+}
+
+.installation .add-background-image {
+  background-image: url(../../images/pixel-pattern-top-right-dark.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding: 0 45px;
+}
+
+.installation .add-background-image .paragraph-content {
+  font-size: 20px;
+  color: #5b708b;
+  line-height: 1.6;
+}
+
+.installation .add-background-image .git-checkbox {
+  color: #8d99a8;
+}
+
+.installation .add-background-image .git-checkbox .checkbox-div {
+  padding: 15px 0;
+}
+
+.installation .add-background-image .git-checkbox i {
+  color: #15bd76;
+  margin-right: 10px;
+}
+
+.installation .add-background-image .git-checkbox .button-installation i {
+  color: #fff;
+}
+
+.installation .add-background-image .git-checkbox .button-installation .btn {
+  background: #0663ff;
+  color: #fff;
+}
+
+.installation .title {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.ellscan {
+  background: #f1f5fb;
+  width: 100%;
+  padding: 45px 0 0;
+  overflow: hidden;
+}
+
+.ellscan .add-background {
+  background: #fff;
+  padding: 45px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ellscan .title {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.ellscan .ellscan-content p {
+  color: #5b708b;
+}
+
+.ellscan .checkbox-div {
+  color: #8d99a8;
+}
+
+.ellscan .checkbox-div i {
+  color: #15bd76;
+  margin-right: 10px;
+}
+
+.ellscan .checkbox-div span {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.ellscan .create-account-button {
+  margin: 20px auto;
+}
+
+.ellscan .btn {
+  background: #0663ff;
+  color: #fff;
+  padding: 15px;
+}
+
+.ellscan .btn .fas {
+  padding-right: 50px;
+}
+
+.ellscan .absolute {
+  position: absolute;
+}
+
+.ellscan .absolute img {
+  width: 438px;
+}
+
+@media (max-width: 1024px) {
+  .ellscan .absolute img {
+    width: 100%;
+  }
+}
+
+.ellscan .relative {
+  position: relative;
+  top: 110px;
+  right: 100px;
+  z-index: 1;
+}
+
+.ellscan .relative img {
+  width: 371px;
+}
+
+@media (max-width: 1024px) {
+  .ellscan .relative img {
+    width: 100%;
+  }
+}
+
+.become-a-miner {
+  background: url(../../images/miner-bg.svg);
+  width: 100%;
+  height: auto;
+  padding: 45px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.become-a-miner .text-content {
+  padding: 45px 15px;
+}
+
+.become-a-miner .text-content .title {
+  text-transform: uppercase;
+  color: #969da7;
+  font-size: 16px;
+}
+
+.become-a-miner .text-content .heading {
+  font-size: 46px;
+  color: #fff;
+  line-height: 60px;
+  font-weight: 600;
+}
+
+.become-a-miner .text-content .get-ell-coins {
+  font-size: 22px;
+  line-height: 32px;
+  color: #969da7;
+}
+
+.become-a-miner .text-content .btn {
+  background: #0663ff;
+  color: #fff;
+  width: 227.4px;
+  height: 58.1px;
+}
+
+.join-the-community {
+  padding: 75px 0;
+}
+
+.join-the-community .content .title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #484f5f;
+}
+
+.join-the-community .content .paragraph-text {
+  color: #494f5e;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.join-the-community img {
+  width: 100%;
+}
+
+.join-the-community .span-icons i {
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+.join-the-community .span-icons .fa-telegram {
+  color: #0088cc;
+}
+
+.join-the-community .span-icons .fa-twitter {
+  color: #1da1f2;
+}
+
+.join-the-community .span-icons .fa-github {
+  color: #333;
+}
+
+.join-the-community .span-icons .fa-facebook {
+  color: #3b5998;
+}
+
+.footer {
+  color: #484f5f !important;
+}
+
+.footer .title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer p {
+  margin: 20px 0;
+}
+
+.footer p a {
+  color: #484f5f;
+}
+
+.footer p a:hover {
+  text-decoration: none;
+}
+
+.footer img {
+  width: 145.9px;
+  height: 21.1px;
+}
+/*# sourceMappingURL=main.css.map */
