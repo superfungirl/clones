@@ -29,6 +29,7 @@ body, html {
 
 nav .logo {
   width: 100px;
+  margin-right: 100px;
 }
 
 nav .nav-link {
@@ -37,6 +38,8 @@ nav .nav-link {
 
 nav .outline-btn {
   font-size: 12px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfd), to(#f5f5fa));
+  background: linear-gradient(to bottom, #fbfbfd, #f5f5fa);
 }
 
 nav .sign-in {
@@ -320,12 +323,11 @@ nav .sign-in {
 .get-safehold .get-safehold-content .create-account-safehold .btn {
   background: #0663ff;
   color: #fff;
-  width: 100%;
-  padding: 15px;
+  padding: 15px 30px;
 }
 
 .get-safehold .get-safehold-content .create-account-safehold .btn .fas {
-  padding-right: 50px;
+  padding-right: 30px;
 }
 
 .get-safehold .get-safehold-content .safehold-img img {
@@ -340,7 +342,6 @@ nav .sign-in {
   background-size: cover;
   background-position: center;
   padding: 90px 0;
-  color: #fff;
 }
 
 .community .add-community-border {
@@ -355,6 +356,7 @@ nav .sign-in {
 
 .community .content {
   padding: 15px;
+  color: #fff;
 }
 
 .community .content img {
@@ -620,6 +622,10 @@ nav .sign-in {
 
 .footer p a:hover {
   text-decoration: none;
+}
+
+.footer form {
+  padding: 15px 0;
 }
 
 .footer img {
