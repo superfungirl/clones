@@ -146,6 +146,14 @@ nav .sign-in {
   height: 60px;
 }
 
+.big-blue-background .fa-book-open {
+  padding-right: 15px;
+}
+
+.big-blue-background .fa-download {
+  padding-right: 15px;
+}
+
 .get-safehold {
   width: 100%;
   background: -webkit-gradient(linear, left bottom, left top, from(#fdfeff), to(#fbfcff));
